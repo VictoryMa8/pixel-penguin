@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://pixel-penguin.victoryma23.chatgpt.site'),
   title: 'Pixel Penguin — Charming games & useful experiments',
   description:
     'A collection of playful student projects and learning games by Victory Ma, made in Minnesota.',
@@ -20,11 +21,20 @@ export const metadata: Metadata = {
     title: 'Pixel Penguin',
     description: 'Charming games & useful experiments.',
     type: 'website',
+    images: [
+      {
+        url: 'https://pixel-penguin.victoryma23.chatgpt.site/og.png',
+        width: 1730,
+        height: 909,
+        alt: 'Pixel Penguin beside a frozen Minnesota lake',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pixel Penguin',
     description: 'Charming games & useful experiments.',
+    images: ['https://pixel-penguin.victoryma23.chatgpt.site/og.png'],
   },
 };
 
